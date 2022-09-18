@@ -1,0 +1,19 @@
+<!-- string interpolation binding -->
+<p>server with ID: {{ serverID }} is {{ getServerStatus() }}</p>
+<p>{{ cta }}</p>
+
+<!-- property binding uses square brace -->
+<button class="btn btn-warning" [disabled]="testServer">take test</button>
+<br />
+<br />
+<button class="btn btn-warning" [disabled]="testServer1">take test</button
+><br /><br />
+
+<!-- event binding -->
+<button
+  class="btn btn-primary"
+  [disabled]="!testServer"
+  (click)="onCreateServer()"
+>
+  take test
+</button>
