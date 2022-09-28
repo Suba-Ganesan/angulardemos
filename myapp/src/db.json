@@ -1,0 +1,33 @@
+{
+    "employees": [
+      {
+        "id": 1,
+        "first_name": "Sebastian",
+        "last_name": "Eschweiler",
+        "email": "sebastian@codingthesmartway.com"
+      },
+      {
+        "id": 2,
+        "first_name": "Steve",
+        "last_name": "Palmer",
+        "email": "steve@codingthesmartway.com"
+      },
+      {
+        "id": 3,
+        "firstName": "kumar",
+        "email": "ann@codingthesmartway.com"
+      },
+      {
+        "id": 4,
+        "firstName": "a",
+        "lastName": null,
+        "email": null,
+        "mobile": null,
+        "salary": null
+      }
+    ],
+    "comments": [],
+    "profile": {
+      "name": "typicode"
+    }
+  }
