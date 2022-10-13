@@ -12,7 +12,7 @@ export class TformsComponent implements OnInit {
   name ='';
   formsubmitted = false;
   user = {
-    username: [],
+    username: '',
     email: '',
     secret: '',
     gender: '',
@@ -23,7 +23,7 @@ export class TformsComponent implements OnInit {
 
   onSubmit(formObj: NgForm) {
     // this.user.username = formObj.value.username;
-    this.user.username.push(this.name);
+    this.user.username=this.name;
     this.user.email = formObj.value.email;
     this.user.secret = formObj.value.secret;
     this.user.gender = formObj.value.gender;

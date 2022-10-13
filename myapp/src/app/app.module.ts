@@ -19,6 +19,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ObservablesComponent } from './observables/observables.component';
 import { TformsComponent } from './tforms/tforms.component';
 import { RformsComponent } from './rforms/rforms.component';
+import { PostsComponent } from './posts/posts.component';
 
 
 const appRoutes: Routes = [
@@ -51,6 +52,7 @@ const appRoutes: Routes = [
     ObservablesComponent,
     TformsComponent,
     RformsComponent,
+    PostsComponent,
   
   ],
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(appRoutes), ReactiveFormsModule],

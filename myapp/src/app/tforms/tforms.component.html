@@ -20,7 +20,7 @@
         >
 
         <div class="alert alert-primary" role="alert">
-          <strong>Valid ? </strong>{{ f.form.controls.username.valid }} <br />
+          <strong>Valid ? </strong>{{ f.form.controls.username?.valid }} <br />
           <strong>Invalid ? </strong>{{ f.form.controls.username?.invalid
           }}<br />
           <strong>Touched ? </strong>{{ username.touched }}<br />
@@ -60,7 +60,6 @@
         >
           <option value="pet">Your First Pet</option>
           <option value="car">Your First Car</option>
-          -SELECT-
           <option value="default">-SELECT-</option>
         </select>
       </div>
